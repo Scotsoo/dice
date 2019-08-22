@@ -4,7 +4,7 @@
   "description": "It rolls dice based on the roll20 dice functions",
   "main": "index.js",
   "scripts": {
-    "test": "standard && jest --coverage"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,12 @@
     "standard": "^13.1.0"
   },
   "standard": {
-    "env": [ "jest", "es6" ]
+    "env": [
+      "jest",
+      "es6"
+    ]
+  },
+  "dependencies": {
+    "uuid": "^3.3.3"
   }
 }
